@@ -7,6 +7,7 @@ class AppTheme {
         borderRadius: BorderRadius.circular(10),
       );
   static final darkThemeMode = ThemeData.dark().copyWith(
+    appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent),
     inputDecorationTheme: InputDecorationTheme(
       contentPadding: const EdgeInsets.all(20),
       enabledBorder: _border(),
